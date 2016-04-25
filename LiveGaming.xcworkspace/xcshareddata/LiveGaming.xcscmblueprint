@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DD344E08DA474ACA9ADBBE045B9E57AE4CB8DDCB",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "5BB228A383DA5B758415B24B13233D7BAD4EB022" : 0,
+    "DD344E08DA474ACA9ADBBE045B9E57AE4CB8DDCB" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C7EC0713-70C7-4C5A-AE9F-245B65D91335",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "5BB228A383DA5B758415B24B13233D7BAD4EB022" : "LiveGaming",
+    "DD344E08DA474ACA9ADBBE045B9E57AE4CB8DDCB" : "LiveDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "LiveGaming",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "LiveGaming.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.oschina.net\/zhzenghui\/LiveGaming.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "5BB228A383DA5B758415B24B13233D7BAD4EB022"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhzenghui\/LiveDemo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DD344E08DA474ACA9ADBBE045B9E57AE4CB8DDCB"
+    }
+  ]
+}

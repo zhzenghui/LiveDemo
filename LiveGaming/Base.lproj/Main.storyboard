@@ -24,7 +24,7 @@
             </objects>
             <point key="canvasLocation" x="746.5" y="327.5"/>
         </scene>
-        <!--xx-->
+        <!--主页-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="LGDViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="LGDViewController" sceneMemberID="viewController">
@@ -37,8 +37,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="xx" id="csF-9R-ocZ"/>
+                    <navigationItem key="navigationItem" title="主页" id="csF-9R-ocZ">
+                        <barButtonItem key="rightBarButtonItem" title="设置" id="MGQ-pS-S4U"/>
+                    </navigationItem>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="openSetting" destination="MGQ-pS-S4U" id="1td-mU-Tif"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

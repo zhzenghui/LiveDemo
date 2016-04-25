@@ -534,6 +534,7 @@
 		149B82021CCDC1F600205971 /* RobotChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149B81111CCDC1F600205971 /* RobotChatViewController.m */; };
 		149B82031CCDC1F600205971 /* RobotListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149B81131CCDC1F600205971 /* RobotListViewController.m */; };
 		149B82041CCDC1F600205971 /* RobotManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 149B81151CCDC1F600205971 /* RobotManager.m */; };
+		149B82071CCDDF2C00205971 /* LGDSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149B82061CCDDF2C00205971 /* LGDSettingViewController.m */; };
 		14AC171F1C83E7FE0034AE94 /* NetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AC171C1C83E7FE0034AE94 /* NetworkConfig.m */; };
 		14AC17201C83E7FE0034AE94 /* YTKUrlArgumentsFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AC171E1C83E7FE0034AE94 /* YTKUrlArgumentsFilter.m */; };
 		14AC173C1C8413410034AE94 /* GetUserInfoApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AC17361C8413410034AE94 /* GetUserInfoApi.m */; };
@@ -1490,6 +1491,8 @@
 		149B81131CCDC1F600205971 /* RobotListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RobotListViewController.m; sourceTree = "<group>"; };
 		149B81141CCDC1F600205971 /* RobotManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotManager.h; sourceTree = "<group>"; };
 		149B81151CCDC1F600205971 /* RobotManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RobotManager.m; sourceTree = "<group>"; };
+		149B82051CCDDF2C00205971 /* LGDSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGDSettingViewController.h; sourceTree = "<group>"; };
+		149B82061CCDDF2C00205971 /* LGDSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGDSettingViewController.m; sourceTree = "<group>"; };
 		14AC171B1C83E7FE0034AE94 /* NetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkConfig.h; sourceTree = "<group>"; };
 		14AC171C1C83E7FE0034AE94 /* NetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkConfig.m; sourceTree = "<group>"; };
 		14AC171D1C83E7FE0034AE94 /* YTKUrlArgumentsFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKUrlArgumentsFilter.h; sourceTree = "<group>"; };
@@ -2619,6 +2622,8 @@
 			children = (
 				149B7FCB1CCDC10B00205971 /* LGDViewController.h */,
 				149B7FCC1CCDC10B00205971 /* LGDViewController.m */,
+				149B82051CCDDF2C00205971 /* LGDSettingViewController.h */,
+				149B82061CCDDF2C00205971 /* LGDSettingViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -4792,6 +4797,7 @@
 				149B812A1CCDC1F600205971 /* EMChatBaseBubbleView.m in Sources */,
 				149B811F1CCDC1F600205971 /* ChatSendHelper.m in Sources */,
 				149B81161CCDC1F600205971 /* NSDate+Category.m in Sources */,
+				149B82071CCDDF2C00205971 /* LGDSettingViewController.m in Sources */,
 				85EBD9781C88240F00861248 /* SRRefreshView.m in Sources */,
 				85EBD9FE1C8832AC00861248 /* PSTCollectionViewLayout.m in Sources */,
 				149B81341CCDC1F600205971 /* MessageReadManager.m in Sources */,

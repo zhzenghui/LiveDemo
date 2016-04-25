@@ -1,5 +1,5 @@
 //
-//  LGDViewController.h
+//  LGDSettingViewController.h
 //  LiveGaming
 //
 //  Created by xy on 16/4/25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LGDViewController : UIViewController
-
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *openSetting;
+@interface LGDSettingViewController : UIViewController
 
 @end

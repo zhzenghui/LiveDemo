@@ -1,19 +1,18 @@
 //
-//  LGDViewController.m
+//  LGDSettingViewController.m
 //  LiveGaming
 //
 //  Created by xy on 16/4/25.
 //  Copyright © 2016年 zenghui. All rights reserved.
 //
 
-#import "LGDViewController.h"
 #import "LGDSettingViewController.h"
 
-@interface LGDViewController ()
+@interface LGDSettingViewController ()
 
 @end
 
-@implementation LGDViewController
+@implementation LGDSettingViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
