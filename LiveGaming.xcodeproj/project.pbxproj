@@ -19,9 +19,7 @@
 		1408EF5E1C852C3600028D77 /* LiveGamingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1408EF5D1C852C3600028D77 /* LiveGamingTests.m */; };
 		1408EF661C852C6B00028D77 /* UserSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 1408EF651C852C6B00028D77 /* UserSpec.m */; };
 		1433450F1C7DA07E0073DB8D /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433450E1C7DA07E0073DB8D /* User.m */; };
-		143345121C7DA08A0073DB8D /* SettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 143345111C7DA08A0073DB8D /* SettingItem.m */; };
 		143345171C7DA0990073DB8D /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 143345141C7DA0990073DB8D /* Post.m */; };
-		143345181C7DA0990073DB8D /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 143345161C7DA0990073DB8D /* Settings.m */; };
 		1433451B1C7DA1350073DB8D /* UserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433451A1C7DA1350073DB8D /* UserViewModel.m */; };
 		14405C231CAA7E20001F52DC /* GetColloctionListApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 14405C221CAA7E20001F52DC /* GetColloctionListApi.m */; };
 		144872231C925F0F002C791F /* MWGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EBD98B1C8832AC00861248 /* MWGridCell.m */; };
@@ -116,7 +114,6 @@
 		144872A61C925F0F002C791F /* EMCDDeviceManager+Media.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EBD8AE1C88240E00861248 /* EMCDDeviceManager+Media.m */; };
 		144872A71C925F0F002C791F /* EMCDDeviceManager+Remind.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EBD8B41C88240E00861248 /* EMCDDeviceManager+Remind.m */; };
 		144872A81C925F0F002C791F /* PSTCollectionViewUpdateItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EBD9D41C8832AC00861248 /* PSTCollectionViewUpdateItem.m */; };
-		144872A91C925F0F002C791F /* SettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 143345111C7DA08A0073DB8D /* SettingItem.m */; };
 		144872AA1C925F0F002C791F /* IBJButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 147156E71C647DD200BA3552 /* IBJButton.m */; };
 		144872AB1C925F0F002C791F /* EMSDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EBD9AD1C8832AC00861248 /* EMSDWebImagePrefetcher.m */; };
 		144872AD1C925F0F002C791F /* UserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1433451A1C7DA1350073DB8D /* UserViewModel.m */; };
@@ -125,7 +122,6 @@
 		144872B41C925F0F002C791F /* IBJImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 147156E91C647DD200BA3552 /* IBJImageView.m */; };
 		144872B51C925F0F002C791F /* XGNotificationConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1480F9BD1C8D2A1900C8C2F9 /* XGNotificationConfig.m */; };
 		144872B61C925F0F002C791F /* YTKUrlArgumentsFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AC171E1C83E7FE0034AE94 /* YTKUrlArgumentsFilter.m */; };
-		144872B71C925F0F002C791F /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 143345161C7DA0990073DB8D /* Settings.m */; };
 		144872B81C925F0F002C791F /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1471570C1C647DD200BA3552 /* Manager.m */; };
 		144872B91C925F0F002C791F /* EMSDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EBD9A61C8832AC00861248 /* EMSDWebImageDownloader.m */; };
 		144872BA1C925F0F002C791F /* EMCDDeviceManager+Microphone.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EBD8B01C88240E00861248 /* EMCDDeviceManager+Microphone.m */; };
@@ -534,7 +530,15 @@
 		149B82021CCDC1F600205971 /* RobotChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149B81111CCDC1F600205971 /* RobotChatViewController.m */; };
 		149B82031CCDC1F600205971 /* RobotListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149B81131CCDC1F600205971 /* RobotListViewController.m */; };
 		149B82041CCDC1F600205971 /* RobotManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 149B81151CCDC1F600205971 /* RobotManager.m */; };
-		149B82071CCDDF2C00205971 /* LGDSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149B82061CCDDF2C00205971 /* LGDSettingViewController.m */; };
+		149B82091CCE153F00205971 /* setting_info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 149B82081CCE153F00205971 /* setting_info.plist */; };
+		149B82251CCE194300205971 /* BoolTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 149B820D1CCE194300205971 /* BoolTableViewCell.m */; };
+		149B82261CCE194300205971 /* MeSettingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 149B820F1CCE194300205971 /* MeSettingTableViewCell.m */; };
+		149B82271CCE194300205971 /* NoneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 149B82111CCE194300205971 /* NoneTableViewCell.m */; };
+		149B82281CCE194300205971 /* UserInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 149B82131CCE194300205971 /* UserInfoTableViewCell.m */; };
+		149B822B1CCE194300205971 /* NotificationSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149B821A1CCE194300205971 /* NotificationSettingViewController.m */; };
+		149B822C1CCE194300205971 /* LGDSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 149B821C1CCE194300205971 /* LGDSettingViewController.m */; };
+		149B822D1CCE194300205971 /* SettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 149B821F1CCE194300205971 /* SettingItem.m */; };
+		149B822E1CCE194300205971 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 149B82211CCE194300205971 /* Settings.m */; };
 		14AC171F1C83E7FE0034AE94 /* NetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AC171C1C83E7FE0034AE94 /* NetworkConfig.m */; };
 		14AC17201C83E7FE0034AE94 /* YTKUrlArgumentsFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AC171E1C83E7FE0034AE94 /* YTKUrlArgumentsFilter.m */; };
 		14AC173C1C8413410034AE94 /* GetUserInfoApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AC17361C8413410034AE94 /* GetUserInfoApi.m */; };
@@ -906,12 +910,8 @@
 		1408EF651C852C6B00028D77 /* UserSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserSpec.m; sourceTree = "<group>"; };
 		1433450D1C7DA07E0073DB8D /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		1433450E1C7DA07E0073DB8D /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
-		143345101C7DA08A0073DB8D /* SettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingItem.h; sourceTree = "<group>"; };
-		143345111C7DA08A0073DB8D /* SettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingItem.m; sourceTree = "<group>"; };
 		143345131C7DA0990073DB8D /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
 		143345141C7DA0990073DB8D /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
-		143345151C7DA0990073DB8D /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
-		143345161C7DA0990073DB8D /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 		143345191C7DA1350073DB8D /* UserViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewModel.h; sourceTree = "<group>"; };
 		1433451A1C7DA1350073DB8D /* UserViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewModel.m; sourceTree = "<group>"; };
 		14405C211CAA7E20001F52DC /* GetColloctionListApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetColloctionListApi.h; sourceTree = "<group>"; };
@@ -1491,8 +1491,23 @@
 		149B81131CCDC1F600205971 /* RobotListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RobotListViewController.m; sourceTree = "<group>"; };
 		149B81141CCDC1F600205971 /* RobotManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RobotManager.h; sourceTree = "<group>"; };
 		149B81151CCDC1F600205971 /* RobotManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RobotManager.m; sourceTree = "<group>"; };
-		149B82051CCDDF2C00205971 /* LGDSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGDSettingViewController.h; sourceTree = "<group>"; };
-		149B82061CCDDF2C00205971 /* LGDSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGDSettingViewController.m; sourceTree = "<group>"; };
+		149B82081CCE153F00205971 /* setting_info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = setting_info.plist; sourceTree = "<group>"; };
+		149B820C1CCE194300205971 /* BoolTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoolTableViewCell.h; sourceTree = "<group>"; };
+		149B820D1CCE194300205971 /* BoolTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoolTableViewCell.m; sourceTree = "<group>"; };
+		149B820E1CCE194300205971 /* MeSettingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeSettingTableViewCell.h; sourceTree = "<group>"; };
+		149B820F1CCE194300205971 /* MeSettingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeSettingTableViewCell.m; sourceTree = "<group>"; };
+		149B82101CCE194300205971 /* NoneTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoneTableViewCell.h; sourceTree = "<group>"; };
+		149B82111CCE194300205971 /* NoneTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoneTableViewCell.m; sourceTree = "<group>"; };
+		149B82121CCE194300205971 /* UserInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInfoTableViewCell.h; sourceTree = "<group>"; };
+		149B82131CCE194300205971 /* UserInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInfoTableViewCell.m; sourceTree = "<group>"; };
+		149B82191CCE194300205971 /* NotificationSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationSettingViewController.h; sourceTree = "<group>"; };
+		149B821A1CCE194300205971 /* NotificationSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationSettingViewController.m; sourceTree = "<group>"; };
+		149B821B1CCE194300205971 /* LGDSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGDSettingViewController.h; sourceTree = "<group>"; };
+		149B821C1CCE194300205971 /* LGDSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGDSettingViewController.m; sourceTree = "<group>"; };
+		149B821E1CCE194300205971 /* SettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingItem.h; sourceTree = "<group>"; };
+		149B821F1CCE194300205971 /* SettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingItem.m; sourceTree = "<group>"; };
+		149B82201CCE194300205971 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		149B82211CCE194300205971 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
 		14AC171B1C83E7FE0034AE94 /* NetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkConfig.h; sourceTree = "<group>"; };
 		14AC171C1C83E7FE0034AE94 /* NetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkConfig.m; sourceTree = "<group>"; };
 		14AC171D1C83E7FE0034AE94 /* YTKUrlArgumentsFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTKUrlArgumentsFilter.h; sourceTree = "<group>"; };
@@ -1940,10 +1955,6 @@
 				143345141C7DA0990073DB8D /* Post.m */,
 				14730C1A1C97D80E007D399D /* LGDModels.h */,
 				14730C1B1C97D80E007D399D /* LGDModels.m */,
-				143345101C7DA08A0073DB8D /* SettingItem.h */,
-				143345111C7DA08A0073DB8D /* SettingItem.m */,
-				143345151C7DA0990073DB8D /* Settings.h */,
-				143345161C7DA0990073DB8D /* Settings.m */,
 				1433450D1C7DA07E0073DB8D /* User.h */,
 				1433450E1C7DA07E0073DB8D /* User.m */,
 				1488A1D81C9FBEA400B04270 /* Models.h */,
@@ -2234,6 +2245,7 @@
 		147157231C647DD200BA3552 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				149B820A1CCE194300205971 /* Setting */,
 				149B7FCE1CCDC1F500205971 /* Message */,
 				149B7FC71CCDBFD300205971 /* Main */,
 			);
@@ -2245,6 +2257,7 @@
 			children = (
 				147157441C647DD200BA3552 /* fff.sb */,
 				147157451C647DD200BA3552 /* settings.plist */,
+				149B82081CCE153F00205971 /* setting_info.plist */,
 				147157461C647DD200BA3552 /* sqlite_structure.plist */,
 				147157471C647DD200BA3552 /* versions.plist */,
 			);
@@ -2622,8 +2635,6 @@
 			children = (
 				149B7FCB1CCDC10B00205971 /* LGDViewController.h */,
 				149B7FCC1CCDC10B00205971 /* LGDViewController.m */,
-				149B82051CCDDF2C00205971 /* LGDSettingViewController.h */,
-				149B82061CCDDF2C00205971 /* LGDSettingViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -3191,6 +3202,77 @@
 				149B81151CCDC1F600205971 /* RobotManager.m */,
 			);
 			path = Robot;
+			sourceTree = "<group>";
+		};
+		149B820A1CCE194300205971 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				149B820B1CCE194300205971 /* Cell */,
+				149B82141CCE194300205971 /* Controller */,
+				149B821D1CCE194300205971 /* Model */,
+				149B82221CCE194300205971 /* Network */,
+				149B82231CCE194300205971 /* View */,
+				149B82241CCE194300205971 /* ViewModel */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		149B820B1CCE194300205971 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				149B820C1CCE194300205971 /* BoolTableViewCell.h */,
+				149B820D1CCE194300205971 /* BoolTableViewCell.m */,
+				149B820E1CCE194300205971 /* MeSettingTableViewCell.h */,
+				149B820F1CCE194300205971 /* MeSettingTableViewCell.m */,
+				149B82101CCE194300205971 /* NoneTableViewCell.h */,
+				149B82111CCE194300205971 /* NoneTableViewCell.m */,
+				149B82121CCE194300205971 /* UserInfoTableViewCell.h */,
+				149B82131CCE194300205971 /* UserInfoTableViewCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		149B82141CCE194300205971 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				149B82191CCE194300205971 /* NotificationSettingViewController.h */,
+				149B821A1CCE194300205971 /* NotificationSettingViewController.m */,
+				149B821B1CCE194300205971 /* LGDSettingViewController.h */,
+				149B821C1CCE194300205971 /* LGDSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		149B821D1CCE194300205971 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				149B821E1CCE194300205971 /* SettingItem.h */,
+				149B821F1CCE194300205971 /* SettingItem.m */,
+				149B82201CCE194300205971 /* Settings.h */,
+				149B82211CCE194300205971 /* Settings.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		149B82221CCE194300205971 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		149B82231CCE194300205971 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		149B82241CCE194300205971 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		14AC171A1C83E7FE0034AE94 /* Configs */ = {
@@ -4091,6 +4173,7 @@
 				8561A78D1CA535D200849A19 /* me.jpg in Resources */,
 				859DB3AE1CA8D43C00CB11E4 /* Expression_99@2x.png in Resources */,
 				149B814E1CCDC1F600205971 /* chatListCellHead@2x.png in Resources */,
+				149B82091CCE153F00205971 /* setting_info.plist in Resources */,
 				1490A2EF1C9017020060E40F /* UMSLoginViewController.xib in Resources */,
 				149B81A81CCDC1F600205971 /* chatBar_recordSelected@2x.png in Resources */,
 				149B81E41CCDC1F600205971 /* titleBar.png in Resources */,
@@ -4649,7 +4732,6 @@
 				144872A61C925F0F002C791F /* EMCDDeviceManager+Media.m in Sources */,
 				144872A71C925F0F002C791F /* EMCDDeviceManager+Remind.m in Sources */,
 				144872A81C925F0F002C791F /* PSTCollectionViewUpdateItem.m in Sources */,
-				144872A91C925F0F002C791F /* SettingItem.m in Sources */,
 				144872AA1C925F0F002C791F /* IBJButton.m in Sources */,
 				144872AB1C925F0F002C791F /* EMSDWebImagePrefetcher.m in Sources */,
 				14072D041CA9070E004259C0 /* NSString+PinYin4Cocoa.m in Sources */,
@@ -4660,7 +4742,6 @@
 				144872B41C925F0F002C791F /* IBJImageView.m in Sources */,
 				144872B51C925F0F002C791F /* XGNotificationConfig.m in Sources */,
 				144872B61C925F0F002C791F /* YTKUrlArgumentsFilter.m in Sources */,
-				144872B71C925F0F002C791F /* Settings.m in Sources */,
 				144872B81C925F0F002C791F /* Manager.m in Sources */,
 				144872B91C925F0F002C791F /* EMSDWebImageDownloader.m in Sources */,
 				1487B5371CA51A300076AD47 /* JPNotificationConfig.m in Sources */,
@@ -4691,7 +4772,9 @@
 				149B812F1CCDC1F600205971 /* EMChatTimeCell.m in Sources */,
 				85EBD9E51C8832AC00861248 /* MWZoomingScrollView.m in Sources */,
 				147157DD1C647DD200BA3552 /* Utils.m in Sources */,
+				149B82251CCE194300205971 /* BoolTableViewCell.m in Sources */,
 				147157C41C647DD200BA3552 /* HeaderCollectionReusableView.m in Sources */,
+				149B822D1CCE194300205971 /* SettingItem.m in Sources */,
 				147157B71C647DD200BA3552 /* NSString+Helper.m in Sources */,
 				1487B5361CA51A300076AD47 /* JPNotificationConfig.m in Sources */,
 				85EBD9791C88240F00861248 /* SRSlimeView.m in Sources */,
@@ -4699,6 +4782,7 @@
 				8561A7871CA535D200849A19 /* SearchResultHandle.m in Sources */,
 				147157BC1C647DD200BA3552 /* BaseViewController.m in Sources */,
 				85EBDA011C8832AC00861248 /* PSTGridLayoutItem.m in Sources */,
+				149B822C1CCE194300205971 /* LGDSettingViewController.m in Sources */,
 				85EBD9E61C8832AC00861248 /* DACircularProgressView.m in Sources */,
 				149B811A1CCDC1F600205971 /* UIResponder+Router.m in Sources */,
 				14AC17411C8438300034AE94 /* NotificationConfig.m in Sources */,
@@ -4777,15 +4861,18 @@
 				85EBD94A1C88240F00861248 /* EmojiEmoticons.m in Sources */,
 				85EBD97E1C88240F00861248 /* EMVoiceConverter.mm in Sources */,
 				859DB3BE1CA8D43C00CB11E4 /* TTTAttributedLabel.m in Sources */,
+				149B82261CCE194300205971 /* MeSettingTableViewCell.m in Sources */,
 				149A8D991C7C41890025EAF2 /* UIColor+Yep.swift in Sources */,
 				85EBDA021C8832AC00861248 /* PSTGridLayoutRow.m in Sources */,
 				1488A1E61C9FD17500B04270 /* GetArticleListApi.m in Sources */,
 				149B81371CCDC1F600205971 /* CommentViewController.m in Sources */,
+				149B82271CCE194300205971 /* NoneTableViewCell.m in Sources */,
 				14405C231CAA7E20001F52DC /* GetColloctionListApi.m in Sources */,
 				85EBD97C1C88240F00861248 /* amrFileCodec.mm in Sources */,
 				85EBD9EB1C8832AC00861248 /* EMSDWebImageDownloaderOperation.m in Sources */,
 				14AC173D1C8413410034AE94 /* RegisterApi.m in Sources */,
 				147157E81C647DD200BA3552 /* AESCrypt.m in Sources */,
+				149B822E1CCE194300205971 /* Settings.m in Sources */,
 				853D1F9F1C96B4AD0007BF00 /* ViewPagerController.m in Sources */,
 				85EBD9F81C8832AC00861248 /* PSTCollectionView.m in Sources */,
 				147157CF1C647DD200BA3552 /* StoreItemView.m in Sources */,
@@ -4797,7 +4884,6 @@
 				149B812A1CCDC1F600205971 /* EMChatBaseBubbleView.m in Sources */,
 				149B811F1CCDC1F600205971 /* ChatSendHelper.m in Sources */,
 				149B81161CCDC1F600205971 /* NSDate+Category.m in Sources */,
-				149B82071CCDDF2C00205971 /* LGDSettingViewController.m in Sources */,
 				85EBD9781C88240F00861248 /* SRRefreshView.m in Sources */,
 				85EBD9FE1C8832AC00861248 /* PSTCollectionViewLayout.m in Sources */,
 				149B81341CCDC1F600205971 /* MessageReadManager.m in Sources */,
@@ -4827,6 +4913,7 @@
 				14571D291CA11ABD006171A5 /* CustomIOSAlertView.m in Sources */,
 				147157F31C647DD300BA3552 /* JSRSA.m in Sources */,
 				8519D41A1CA138560038F2DF /* CommentView.m in Sources */,
+				149B822B1CCE194300205971 /* NotificationSettingViewController.m in Sources */,
 				149B812B1CCDC1F600205971 /* EMChatImageBubbleView.m in Sources */,
 				14730C421C97F61F007D399D /* ZYTokenManager.m in Sources */,
 				1462BE5D1C8045EE003B948A /* FileRecordUploadDBHelper.m in Sources */,
@@ -4863,7 +4950,6 @@
 				85EBD9431C88240F00861248 /* EMCDDeviceManager+Media.m in Sources */,
 				85EBD9461C88240F00861248 /* EMCDDeviceManager+Remind.m in Sources */,
 				85EBD9FF1C8832AC00861248 /* PSTCollectionViewUpdateItem.m in Sources */,
-				143345121C7DA08A0073DB8D /* SettingItem.m in Sources */,
 				147157C51C647DD200BA3552 /* IBJButton.m in Sources */,
 				149B813B1CCDC1F600205971 /* EMSearchBar.m in Sources */,
 				147C686C1CAE597D00BDB676 /* GetReplyApi.m in Sources */,
@@ -4880,7 +4966,7 @@
 				855728561CAAB2B900EB856D /* SystemMessageApi.m in Sources */,
 				1480F9BE1C8D2A1900C8C2F9 /* XGNotificationConfig.m in Sources */,
 				14AC17201C83E7FE0034AE94 /* YTKUrlArgumentsFilter.m in Sources */,
-				143345181C7DA0990073DB8D /* Settings.m in Sources */,
+				149B82281CCE194300205971 /* UserInfoTableViewCell.m in Sources */,
 				147157D51C647DD200BA3552 /* Manager.m in Sources */,
 				85EBD9EA1C8832AC00861248 /* EMSDWebImageDownloader.m in Sources */,
 				85EBD9441C88240F00861248 /* EMCDDeviceManager+Microphone.m in Sources */,
