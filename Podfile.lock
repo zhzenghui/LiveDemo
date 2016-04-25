@@ -1,0 +1,161 @@
+PODS:
+  - AFDownloadRequestOperation (2.0.1):
+    - AFNetworking (~> 2.0)
+  - AFMInfoBanner (1.1):
+    - CVKHierarchySearcher (~> 0.2)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Aspects (1.4.1)
+  - Bolts/Tasks (1.6.0)
+  - Crashlytics (3.6.0):
+    - Fabric (~> 1.6.3)
+  - CVKHierarchySearcher (0.2.0)
+  - DZNEmptyDataSet (1.7.3)
+  - EaseMobSDK (2.2.2)
+  - Fabric (1.6.3)
+  - FMDB (2.6):
+    - FMDB/standard (= 2.6)
+  - FMDB/standard (2.6)
+  - Kiwi (2.4.0)
+  - KRVideoPlayer (1.0.1)
+  - Masonry (0.6.4)
+  - MBProgressHUD (0.9.2)
+  - MJRefresh (3.1.0)
+  - MTDates (1.0.3)
+  - MTMigration (0.0.5)
+  - NSDate+TimeAgo (1.0.3)
+  - NSLogger (1.5.1):
+    - NSLogger/Standard (= 1.5.1)
+  - NSLogger/Standard (1.5.1)
+  - Parse (1.12.0):
+    - Bolts/Tasks (~> 1.5)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - Realm/Headers (0.98.2)
+  - SCRecorder (2.6.1)
+  - SDWebImage (3.7.5):
+    - SDWebImage/Core (= 3.7.5)
+  - SDWebImage/Core (3.7.5)
+  - SVProgressHUD (1.1.3)
+  - TDBadgedCell (3.0)
+  - Toast (3.0)
+  - UITableView+FDTemplateLayoutCell (1.4)
+  - UMengAnalytics (3.6.6)
+  - YTKKeyValueStore (0.1.2):
+    - FMDB (~> 2.0)
+  - YTKNetwork (0.5.0):
+    - AFDownloadRequestOperation (~> 2.0)
+    - AFNetworking (~> 2.0)
+  - YYCache (0.9.4)
+  - YYModel (0.9.10)
+  - YYText (0.9.18)
+
+DEPENDENCIES:
+  - AFMInfoBanner (from `https://github.com/zhzenghui/AFMInfoBanner.git`)
+  - AFNetworking
+  - Aspects
+  - Crashlytics
+  - DZNEmptyDataSet
+  - EaseMobSDK (from `https://github.com/easemob/sdk-ios-cocoapods.git`)
+  - Fabric
+  - Kiwi
+  - KRVideoPlayer
+  - Masonry
+  - MBProgressHUD (~> 0.9.2)
+  - MJRefresh
+  - MTDates
+  - MTMigration
+  - NSDate+TimeAgo
+  - NSLogger
+  - Parse
+  - ReactiveCocoa
+  - Realm/Headers
+  - SCRecorder
+  - SDWebImage (~> 3.7)
+  - SVProgressHUD
+  - TDBadgedCell
+  - Toast (~> 3.0)
+  - UITableView+FDTemplateLayoutCell (~> 1.4)
+  - UMengAnalytics
+  - YTKKeyValueStore
+  - YTKNetwork
+  - YYCache
+  - YYModel
+  - YYText
+
+EXTERNAL SOURCES:
+  AFMInfoBanner:
+    :git: https://github.com/zhzenghui/AFMInfoBanner.git
+  EaseMobSDK:
+    :git: https://github.com/easemob/sdk-ios-cocoapods.git
+
+CHECKOUT OPTIONS:
+  AFMInfoBanner:
+    :commit: bf1df447206dd7d98a1be7d630b57fefd39533ae
+    :git: https://github.com/zhzenghui/AFMInfoBanner.git
+  EaseMobSDK:
+    :commit: 94d26ad129403f1c8b6bef1ec505f842d41be3b1
+    :git: https://github.com/easemob/sdk-ios-cocoapods.git
+
+SPEC CHECKSUMS:
+  AFDownloadRequestOperation: 748a1643423e1ddb23f2178f778087d4f0ae8ac7
+  AFMInfoBanner: 565e990eace9b19ca048a7affe967379c0363083
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
+  Bolts: f52a250053bb517ca874523c3913776359ab3def
+  Crashlytics: e4e8d02914f2608fbc7bf42b1a7af838b0db67a2
+  CVKHierarchySearcher: 7be8d3bcbcc6f86ff07f785e6c632b5e40da2553
+  DZNEmptyDataSet: dd7cca17c1d07dfa78956859b1e70a52505678ef
+  EaseMobSDK: c686ef0f313d14ae18df45d82b9fc3746d6354bd
+  Fabric: cbe0ca6c9531bba17910052f6f105fcbc5fa7f67
+  FMDB: c1968bab3ab0aed38f66cb778ae1e7fa9a652b6e
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+  KRVideoPlayer: 08918da1b99cae35fd4c15b2ec2b49358d4c985f
+  Masonry: 281802d04d787ea2973179ee8bcb50500579ede2
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
+  MTDates: c65affdfb7b34001c5c9e3fe0beac4b1b8334a58
+  MTMigration: 725315e6469c8fd7d13966887f59e65eb8aecb2e
+  NSDate+TimeAgo: 416f55d2696d3744c313091c5a9280d47f8238fe
+  NSLogger: 5ed223a2436df96244e033be750656dacdeec034
+  Parse: de2c52a9a1421b91ae7594ab8ce191afd184f19b
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  Realm: 88a147fe04b8f07191a676b15c779b2b448991de
+  SCRecorder: ef11bc34094c43201cc7c94fa9aeb5266e5b9cf7
+  SDWebImage: 69c6303e3348fba97e03f65d65d4fbc26740f461
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  TDBadgedCell: 8e5314066fd8c2d8b6e3fc5dec824f5ded78bdc5
+  Toast: 32c59229abfcf41850162b83bb9259dc84372473
+  UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
+  UMengAnalytics: 4bf831415146b9c57cb10be65fbd43462ef8cf65
+  YTKKeyValueStore: 4d002941540dd5108fa23009b71e0f2f937f7a0f
+  YTKNetwork: 3f163c181ce5f03d52cf88f39d6757f46894280c
+  YYCache: e52b170b1095d30329005e4fe450d81c5ebcb45b
+  YYModel: fea50373bd53cd04c9a90e580c0ac561c5d1009e
+  YYText: f098883789a7336ff3e13653ba7c7cb1a07ca560
+
+COCOAPODS: 0.39.0

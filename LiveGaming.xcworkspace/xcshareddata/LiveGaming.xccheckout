@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>C7EC0713-70C7-4C5A-AE9F-245B65D91335</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LiveGaming</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5BB228A383DA5B758415B24B13233D7BAD4EB022</key>
+		<string>https://git.oschina.net/zhzenghui/LiveGaming.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LiveGaming.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5BB228A383DA5B758415B24B13233D7BAD4EB022</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://git.oschina.net/zhzenghui/LiveGaming.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5BB228A383DA5B758415B24B13233D7BAD4EB022</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5BB228A383DA5B758415B24B13233D7BAD4EB022</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LiveGaming</string>
+		</dict>
+	</array>
+</dict>
+</plist>

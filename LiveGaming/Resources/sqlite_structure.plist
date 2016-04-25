@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>version</key>
+		<integer>0</integer>
+		<key>sql</key>
+		<string>CREATE TABLE IF NOT EXISTS  sql_structure_vertion ( id TEXT NOT NULL,version TEXT NOT NULL, PRIMARY KEY(id));</string>
+	</dict>
+	<dict>
+		<key>version</key>
+		<integer>1</integer>
+		<key>sql</key>
+		<string>CREATE TABLE IF NOT EXISTS  FileRecord (url TEXT ,md5 TEXT ,fileType integerL, second datetime default &quot;&quot;,createTime TIMESTAMP default (datetime(&apos;now&apos;, &apos;localtime&apos;)), localPath TEXT);</string>
+	</dict>
+	<dict>
+		<key>version</key>
+		<integer>2</integer>
+		<key>sql</key>
+		<string>CREATE TABLE IF NOT EXISTS  Test ( id TEXT NOT NULL, PRIMARY KEY(id));</string>
+	</dict>
+	<dict>
+		<key>version</key>
+		<integer>3</integer>
+		<key>sql</key>
+		<string>ALTER TABLE FileRecord ADD uploadStatus INTEGER</string>
+	</dict>
+</array>
+</plist>
