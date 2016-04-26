@@ -5,14 +5,16 @@
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "3B4AC509D91404531D9C9777857473B523BFAB8E" : 0,
-    "5BB228A383DA5B758415B24B13233D7BAD4EB022" : 0,
-    "DD344E08DA474ACA9ADBBE045B9E57AE4CB8DDCB" : 0
+    "E1679FC111225C1A98EA0394D0D0D5A7DEF963BC" : 0,
+    "DD344E08DA474ACA9ADBBE045B9E57AE4CB8DDCB" : 0,
+    "5BB228A383DA5B758415B24B13233D7BAD4EB022" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C7EC0713-70C7-4C5A-AE9F-245B65D91335",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "3B4AC509D91404531D9C9777857473B523BFAB8E" : "FFPlay\/",
-    "5BB228A383DA5B758415B24B13233D7BAD4EB022" : "LiveGaming",
-    "DD344E08DA474ACA9ADBBE045B9E57AE4CB8DDCB" : "LiveDemo\/"
+    "E1679FC111225C1A98EA0394D0D0D5A7DEF963BC" : "ijkplayer\/",
+    "DD344E08DA474ACA9ADBBE045B9E57AE4CB8DDCB" : "LiveDemo\/",
+    "5BB228A383DA5B758415B24B13233D7BAD4EB022" : "LiveGaming"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "LiveGaming",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -32,6 +34,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zhzenghui\/LiveDemo.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DD344E08DA474ACA9ADBBE045B9E57AE4CB8DDCB"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Bilibili\/ijkplayer.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E1679FC111225C1A98EA0394D0D0D5A7DEF963BC"
     }
   ]
 }

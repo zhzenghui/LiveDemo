@@ -8,7 +8,7 @@
 
 #import "LGDRTMPViewController.h"
 
-#import "IJKMoviePlayerViewController.h"
+//#import "IJKMoviePlayerViewController.h"
 
 
 

@@ -204,8 +204,6 @@
 		1462D2471CCF437600953C1F /* LGDPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1462D2461CCF437600953C1F /* LGDPlayerViewController.m */; };
 		1462D24E1CCF4F5200953C1F /* LGDStreamerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1462D24D1CCF4F5200953C1F /* LGDStreamerViewController.m */; };
 		1462D26A1CCF542A00953C1F /* LGDRTMPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1462D2691CCF542A00953C1F /* LGDRTMPViewController.m */; };
-		1462D26E1CCF55EB00953C1F /* IJKMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1462D26C1CCF55EB00953C1F /* IJKMoviePlayerViewController.m */; };
-		1462D26F1CCF55EB00953C1F /* IJKMoviePlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1462D26D1CCF55EB00953C1F /* IJKMoviePlayerViewController.xib */; };
 		146E060F1C911A98000159D6 /* LoginApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 146E060E1C911A98000159D6 /* LoginApi.m */; };
 		147156A51C64736E00BA3552 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 147156A41C64736E00BA3552 /* main.m */; };
 		147156AE1C64736E00BA3552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147156AC1C64736E00BA3552 /* Main.storyboard */; };
@@ -563,6 +561,16 @@
 		14AC17411C8438300034AE94 /* NotificationConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 14AC17401C8438300034AE94 /* NotificationConfig.m */; };
 		14C09BA91C96B89F00437267 /* ViewPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 853D1F9E1C96B4AD0007BF00 /* ViewPagerController.m */; };
 		14D704771CA38578009A1852 /* CommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8519D4191CA138560038F2DF /* CommentView.m */; };
+		14EC32511CCF6B3A00CBD732 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EC324B1CCF6AD600CBD732 /* IJKMediaFramework.framework */; };
+		14EC32531CCF6C1900CBD732 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EC32521CCF6C1900CBD732 /* AudioToolbox.framework */; };
+		14EC32551CCF6C2100CBD732 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EC32541CCF6C2100CBD732 /* AVFoundation.framework */; };
+		14EC32571CCF6C3300CBD732 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EC32561CCF6C3300CBD732 /* CoreMedia.framework */; };
+		14EC32591CCF6C5900CBD732 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EC32581CCF6C5900CBD732 /* libz.tbd */; };
+		14EC325B1CCF6C7C00CBD732 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EC325A1CCF6C7C00CBD732 /* MediaPlayer.framework */; };
+		14EC325D1CCF6C8500CBD732 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EC325C1CCF6C8500CBD732 /* MobileCoreServices.framework */; };
+		14EC325F1CCF6C8C00CBD732 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EC325E1CCF6C8C00CBD732 /* OpenGLES.framework */; };
+		14EC32611CCF6C9200CBD732 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EC32601CCF6C9200CBD732 /* QuartzCore.framework */; };
+		14EC32631CCF6C9E00CBD732 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EC32621CCF6C9E00CBD732 /* VideoToolbox.framework */; };
 		14FD3E081CAA521E006D5747 /* GetLocationFriendListApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FD3E071CAA521E006D5747 /* GetLocationFriendListApi.m */; };
 		14FD3E091CAA521E006D5747 /* GetLocationFriendListApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FD3E071CAA521E006D5747 /* GetLocationFriendListApi.m */; };
 		277300E2B48A9FD3F615FA0D /* libPods-LiveGamingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB14F9DA01A6D10EE9725D6 /* libPods-LiveGamingTests.a */; };
@@ -915,6 +923,27 @@
 			remoteGlobalIDString = 1471569F1C64736E00BA3552;
 			remoteInfo = LiveGaming;
 		};
+		14EC324A1CCF6AD600CBD732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14EC32441CCF6AD500CBD732 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E654EA8A1B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFramework;
+		};
+		14EC324C1CCF6AD600CBD732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14EC32441CCF6AD500CBD732 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E654EA941B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFrameworkTests;
+		};
+		14EC324F1CCF6B2700CBD732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14EC32441CCF6AD500CBD732 /* IJKMediaPlayer.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = E654EA891B6B27E600B0F2D0;
+			remoteInfo = IJKMediaFramework;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -1060,9 +1089,6 @@
 		1462D24D1CCF4F5200953C1F /* LGDStreamerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGDStreamerViewController.m; sourceTree = "<group>"; };
 		1462D2681CCF542A00953C1F /* LGDRTMPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGDRTMPViewController.h; sourceTree = "<group>"; };
 		1462D2691CCF542A00953C1F /* LGDRTMPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGDRTMPViewController.m; sourceTree = "<group>"; };
-		1462D26B1CCF55EB00953C1F /* IJKMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKMoviePlayerViewController.h; sourceTree = "<group>"; };
-		1462D26C1CCF55EB00953C1F /* IJKMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKMoviePlayerViewController.m; sourceTree = "<group>"; };
-		1462D26D1CCF55EB00953C1F /* IJKMoviePlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IJKMoviePlayerViewController.xib; sourceTree = "<group>"; };
 		146E060D1C911A98000159D6 /* LoginApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginApi.h; sourceTree = "<group>"; };
 		146E060E1C911A98000159D6 /* LoginApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginApi.m; sourceTree = "<group>"; };
 		147156A01C64736E00BA3552 /* LiveGaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveGaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1653,6 +1679,16 @@
 		14AC173B1C8413410034AE94 /* UploadImageApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadImageApi.m; sourceTree = "<group>"; };
 		14AC173F1C8438300034AE94 /* NotificationConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationConfig.h; sourceTree = "<group>"; };
 		14AC17401C8438300034AE94 /* NotificationConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationConfig.m; sourceTree = "<group>"; };
+		14EC32441CCF6AD500CBD732 /* IJKMediaPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IJKMediaPlayer.xcodeproj; path = ../../../ijkplayer/ios/IJKMediaPlayer/IJKMediaPlayer.xcodeproj; sourceTree = "<group>"; };
+		14EC32521CCF6C1900CBD732 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		14EC32541CCF6C2100CBD732 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		14EC32561CCF6C3300CBD732 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		14EC32581CCF6C5900CBD732 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		14EC325A1CCF6C7C00CBD732 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		14EC325C1CCF6C8500CBD732 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		14EC325E1CCF6C8C00CBD732 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		14EC32601CCF6C9200CBD732 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		14EC32621CCF6C9E00CBD732 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
 		14FD3E061CAA521E006D5747 /* GetLocationFriendListApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetLocationFriendListApi.h; sourceTree = "<group>"; };
 		14FD3E071CAA521E006D5747 /* GetLocationFriendListApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetLocationFriendListApi.m; sourceTree = "<group>"; };
 		5B9953C859D3E62CE2F1D028 /* Pods-LiveGaming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveGaming.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiveGaming/Pods-LiveGaming.release.xcconfig"; sourceTree = "<group>"; };
@@ -2028,7 +2064,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14EC32631CCF6C9E00CBD732 /* VideoToolbox.framework in Frameworks */,
+				14EC32611CCF6C9200CBD732 /* QuartzCore.framework in Frameworks */,
+				14EC325F1CCF6C8C00CBD732 /* OpenGLES.framework in Frameworks */,
+				14EC325D1CCF6C8500CBD732 /* MobileCoreServices.framework in Frameworks */,
+				14EC325B1CCF6C7C00CBD732 /* MediaPlayer.framework in Frameworks */,
+				14EC32591CCF6C5900CBD732 /* libz.tbd in Frameworks */,
 				1462D2411CCF424C00953C1F /* libbz2.1.0.tbd in Frameworks */,
+				14EC32571CCF6C3300CBD732 /* CoreMedia.framework in Frameworks */,
+				14EC32551CCF6C2100CBD732 /* AVFoundation.framework in Frameworks */,
+				14EC32531CCF6C1900CBD732 /* AudioToolbox.framework in Frameworks */,
+				14EC32511CCF6B3A00CBD732 /* IJKMediaFramework.framework in Frameworks */,
 				1462D23A1CCF406300953C1F /* libavdevice.a in Frameworks */,
 				1490A2A81C9014450060E40F /* libz.1.2.5.tbd in Frameworks */,
 				1462D23B1CCF406300953C1F /* libavfilter.a in Frameworks */,
@@ -2495,9 +2541,6 @@
 		1462D2671CCF542A00953C1F /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				1462D26B1CCF55EB00953C1F /* IJKMoviePlayerViewController.h */,
-				1462D26C1CCF55EB00953C1F /* IJKMoviePlayerViewController.m */,
-				1462D26D1CCF55EB00953C1F /* IJKMoviePlayerViewController.xib */,
 				1462D2681CCF542A00953C1F /* LGDRTMPViewController.h */,
 				1462D2691CCF542A00953C1F /* LGDRTMPViewController.m */,
 			);
@@ -2736,6 +2779,7 @@
 		147157481C647DD200BA3552 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				14EC32441CCF6AD500CBD732 /* IJKMediaPlayer.xcodeproj */,
 				1462D1CC1CCF406200953C1F /* FFMpegiOS */,
 				859DB26A1CA8D43C00CB11E4 /* TTAttributeLabel */,
 				85D79EAA1CA620E70023B03B /* QRadioButton */,
@@ -3756,6 +3800,15 @@
 			path = Configs;
 			sourceTree = "<group>";
 		};
+		14EC32451CCF6AD500CBD732 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14EC324B1CCF6AD600CBD732 /* IJKMediaFramework.framework */,
+				14EC324D1CCF6AD600CBD732 /* IJKMediaFrameworkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		853D1F9C1C96B4AD0007BF00 /* ICViewPager */ = {
 			isa = PBXGroup;
 			children = (
@@ -4311,6 +4364,15 @@
 		B782A5682E59963CA20ADAF3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				14EC32621CCF6C9E00CBD732 /* VideoToolbox.framework */,
+				14EC32601CCF6C9200CBD732 /* QuartzCore.framework */,
+				14EC325E1CCF6C8C00CBD732 /* OpenGLES.framework */,
+				14EC325C1CCF6C8500CBD732 /* MobileCoreServices.framework */,
+				14EC325A1CCF6C7C00CBD732 /* MediaPlayer.framework */,
+				14EC32581CCF6C5900CBD732 /* libz.tbd */,
+				14EC32561CCF6C3300CBD732 /* CoreMedia.framework */,
+				14EC32541CCF6C2100CBD732 /* AVFoundation.framework */,
+				14EC32521CCF6C1900CBD732 /* AudioToolbox.framework */,
 				1462D2401CCF424C00953C1F /* libbz2.1.0.tbd */,
 				1490A2A71C9014450060E40F /* libz.1.2.5.tbd */,
 				1490A2A51C90143C0060E40F /* libstdc++.tbd */,
@@ -4385,6 +4447,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				14EC32501CCF6B2700CBD732 /* PBXTargetDependency */,
 			);
 			name = LiveGaming;
 			productName = LiveGaming;
@@ -4435,6 +4498,12 @@
 			mainGroup = 147156971C64736E00BA3552;
 			productRefGroup = 147156A11C64736E00BA3552 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 14EC32451CCF6AD500CBD732 /* Products */;
+					ProjectRef = 14EC32441CCF6AD500CBD732 /* IJKMediaPlayer.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				1471569F1C64736E00BA3552 /* LiveGaming */,
@@ -4443,6 +4512,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		14EC324B1CCF6AD600CBD732 /* IJKMediaFramework.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = IJKMediaFramework.framework;
+			remoteRef = 14EC324A1CCF6AD600CBD732 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		14EC324D1CCF6AD600CBD732 /* IJKMediaFrameworkTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = IJKMediaFrameworkTests.xctest;
+			remoteRef = 14EC324C1CCF6AD600CBD732 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1408EF591C852C3600028D77 /* Resources */ = {
@@ -4705,7 +4791,6 @@
 				1490A2F21C9017020060E40F /* UMSocialSDKResourcesNew.bundle in Resources */,
 				149B816E1CCDC1F600205971 /* VoiceSearchFeedback016@2x.png in Resources */,
 				149B819E1CCDC1F600205971 /* chatBar_keyboardSelected@2x.png in Resources */,
-				1462D26F1CCF55EB00953C1F /* IJKMoviePlayerViewController.xib in Resources */,
 				1490A2F01C9017020060E40F /* UMSnsAccountViewController.xib in Resources */,
 				149B81771CCDC1F600205971 /* call_out.png in Resources */,
 				859DB3A81CA8D43C00CB11E4 /* Expression_96@2x.png in Resources */,
@@ -5296,7 +5381,6 @@
 				8561A7831CA535D200849A19 /* FollowGroupModel.m in Sources */,
 				8523E9331CA0E6BE00171893 /* GetFriendslistApi.m in Sources */,
 				85EBD9FA1C8832AC00861248 /* PSTCollectionViewController.m in Sources */,
-				1462D26E1CCF55EB00953C1F /* IJKMoviePlayerViewController.m in Sources */,
 				859DB3C21CA8FBAA00CB11E4 /* PlaceholderTextView.m in Sources */,
 				85D79EC11CA65A300023B03B /* EditUserInfoApi.m in Sources */,
 				1462D24E1CCF4F5200953C1F /* LGDStreamerViewController.m in Sources */,
@@ -5478,6 +5562,11 @@
 			isa = PBXTargetDependency;
 			target = 1471569F1C64736E00BA3552 /* LiveGaming */;
 			targetProxy = 1408EF601C852C3600028D77 /* PBXContainerItemProxy */;
+		};
+		14EC32501CCF6B2700CBD732 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = IJKMediaFramework;
+			targetProxy = 14EC324F1CCF6B2700CBD732 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -5795,6 +5884,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DA28796971920C0E33AC9458 /* Pods-LiveGaming.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_MODULES = YES;
@@ -5881,6 +5971,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B9953C859D3E62CE2F1D028 /* Pods-LiveGaming.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				CLANG_ENABLE_MODULES = YES;
