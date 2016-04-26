@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LGDViewController : UIViewController
+@interface LGDViewController : UITableViewController
 
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *openSetting;
 

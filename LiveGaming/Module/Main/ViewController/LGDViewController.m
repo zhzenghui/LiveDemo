@@ -10,29 +10,68 @@
 #import "LGDSettingViewController.h"
 
 @interface LGDViewController ()
-
+@property (nonatomic, strong) NSMutableArray *titles;
+@property (nonatomic, strong) NSMutableArray *classNames;
 @end
 
 @implementation LGDViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    self.title = @"主页";
+    self.titles = @[].mutableCopy;
+    self.classNames = @[].mutableCopy;
+    [self addCell:@"界面流畅优化" class:@"SmoothInterface"];
+    [self addCell:@"FFMpeg视频播放器" class:@"LGDPlayerViewController"];
+//    [self addCell:@"Image" class:@"YYImageExample"];
+//    [self addCell:@"Text" class:@"YYTextExample"];
+//    //    [self addCell:@"Utility" class:@"YYUtilityExample"];
+//    [self addCell:@"Feed List Demo" class:@"YYFeedListExample"];
+    [self.tableView reloadData];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+
+
+- (void)addCell:(NSString *)title class:(NSString *)className {
+    [self.titles addObject:title];
+    [self.classNames addObject:className];
 }
-*/
+
+
+#pragma mark - Table view data source
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return _titles.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"YY"];
+    if (!cell) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"YY"];
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    }
+    cell.textLabel.text = _titles[indexPath.row];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSString *className = self.classNames[indexPath.row];
+    Class class = NSClassFromString(className);
+    if (class) {
+        UIViewController *ctrl = class.new;
+        ctrl.title = _titles[indexPath.row];
+        [self.navigationController pushViewController:ctrl animated:YES];
+    }
+    [self.tableView deselectRowAtIndexPath:indexPath animated:YES];
+}
+
+
+
 
 @end
