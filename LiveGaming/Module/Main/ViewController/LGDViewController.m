@@ -24,6 +24,7 @@
     self.classNames = @[].mutableCopy;
     [self addCell:@"1.界面流畅优化" class:@"SmoothInterface"];
     [self addCell:@"2.FFMpeg视频播放器" class:@"LGDPlayerViewController"];
+    [self addCell:@"3.ijk视频播放器" class:@"LGDRTMPViewController"];
 //    [self addCell:@"Image" class:@"YYImageExample"];
 //    [self addCell:@"Text" class:@"YYTextExample"];
 //    //    [self addCell:@"Utility" class:@"YYUtilityExample"];

@@ -561,6 +561,11 @@
 		14EC325F1CCF6C8C00CBD732 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EC325E1CCF6C8C00CBD732 /* OpenGLES.framework */; };
 		14EC32611CCF6C9200CBD732 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EC32601CCF6C9200CBD732 /* QuartzCore.framework */; };
 		14EC32631CCF6C9E00CBD732 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EC32621CCF6C9E00CBD732 /* VideoToolbox.framework */; };
+		14EC32671CCF6DF900CBD732 /* IJKMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EC32651CCF6DF900CBD732 /* IJKMoviePlayerViewController.m */; };
+		14EC32681CCF6DF900CBD732 /* IJKMoviePlayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14EC32661CCF6DF900CBD732 /* IJKMoviePlayerViewController.xib */; };
+		14EC326B1CCF6ED300CBD732 /* IJKMediaControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EC326A1CCF6ED300CBD732 /* IJKMediaControl.m */; };
+		14EC32721CCF6F1700CBD732 /* Barcode.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EC326E1CCF6F1700CBD732 /* Barcode.m */; };
+		14EC32731CCF6F1700CBD732 /* IJKDemoHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 14EC32711CCF6F1700CBD732 /* IJKDemoHistory.m */; };
 		14FD3E081CAA521E006D5747 /* GetLocationFriendListApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FD3E071CAA521E006D5747 /* GetLocationFriendListApi.m */; };
 		14FD3E091CAA521E006D5747 /* GetLocationFriendListApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FD3E071CAA521E006D5747 /* GetLocationFriendListApi.m */; };
 		277300E2B48A9FD3F615FA0D /* libPods-LiveGamingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB14F9DA01A6D10EE9725D6 /* libPods-LiveGamingTests.a */; };
@@ -1574,6 +1579,16 @@
 		14EC325E1CCF6C8C00CBD732 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		14EC32601CCF6C9200CBD732 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		14EC32621CCF6C9E00CBD732 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		14EC32641CCF6DF900CBD732 /* IJKMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKMoviePlayerViewController.h; sourceTree = "<group>"; };
+		14EC32651CCF6DF900CBD732 /* IJKMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKMoviePlayerViewController.m; sourceTree = "<group>"; };
+		14EC32661CCF6DF900CBD732 /* IJKMoviePlayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IJKMoviePlayerViewController.xib; sourceTree = "<group>"; };
+		14EC32691CCF6ED300CBD732 /* IJKMediaControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKMediaControl.h; sourceTree = "<group>"; };
+		14EC326A1CCF6ED300CBD732 /* IJKMediaControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKMediaControl.m; sourceTree = "<group>"; };
+		14EC326D1CCF6F1700CBD732 /* Barcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Barcode.h; sourceTree = "<group>"; };
+		14EC326E1CCF6F1700CBD732 /* Barcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Barcode.m; sourceTree = "<group>"; };
+		14EC326F1CCF6F1700CBD732 /* IJKCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKCommon.h; sourceTree = "<group>"; };
+		14EC32701CCF6F1700CBD732 /* IJKDemoHistory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKDemoHistory.h; sourceTree = "<group>"; };
+		14EC32711CCF6F1700CBD732 /* IJKDemoHistory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKDemoHistory.m; sourceTree = "<group>"; };
 		14FD3E061CAA521E006D5747 /* GetLocationFriendListApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetLocationFriendListApi.h; sourceTree = "<group>"; };
 		14FD3E071CAA521E006D5747 /* GetLocationFriendListApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GetLocationFriendListApi.m; sourceTree = "<group>"; };
 		5B9953C859D3E62CE2F1D028 /* Pods-LiveGaming.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LiveGaming.release.xcconfig"; path = "Pods/Target Support Files/Pods-LiveGaming/Pods-LiveGaming.release.xcconfig"; sourceTree = "<group>"; };
@@ -2197,6 +2212,12 @@
 		1462D2671CCF542A00953C1F /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				14EC326C1CCF6F1700CBD732 /* Misc */,
+				14EC32691CCF6ED300CBD732 /* IJKMediaControl.h */,
+				14EC326A1CCF6ED300CBD732 /* IJKMediaControl.m */,
+				14EC32641CCF6DF900CBD732 /* IJKMoviePlayerViewController.h */,
+				14EC32651CCF6DF900CBD732 /* IJKMoviePlayerViewController.m */,
+				14EC32661CCF6DF900CBD732 /* IJKMoviePlayerViewController.xib */,
 				1462D2681CCF542A00953C1F /* LGDRTMPViewController.h */,
 				1462D2691CCF542A00953C1F /* LGDRTMPViewController.m */,
 			);
@@ -3462,6 +3483,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		14EC326C1CCF6F1700CBD732 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				14EC326D1CCF6F1700CBD732 /* Barcode.h */,
+				14EC326E1CCF6F1700CBD732 /* Barcode.m */,
+				14EC326F1CCF6F1700CBD732 /* IJKCommon.h */,
+				14EC32701CCF6F1700CBD732 /* IJKDemoHistory.h */,
+				14EC32711CCF6F1700CBD732 /* IJKDemoHistory.m */,
+			);
+			path = Misc;
+			sourceTree = "<group>";
+		};
 		853D1F9C1C96B4AD0007BF00 /* ICViewPager */ = {
 			isa = PBXGroup;
 			children = (
@@ -4444,6 +4477,7 @@
 				1490A2F21C9017020060E40F /* UMSocialSDKResourcesNew.bundle in Resources */,
 				149B816E1CCDC1F600205971 /* VoiceSearchFeedback016@2x.png in Resources */,
 				149B819E1CCDC1F600205971 /* chatBar_keyboardSelected@2x.png in Resources */,
+				14EC32681CCF6DF900CBD732 /* IJKMoviePlayerViewController.xib in Resources */,
 				1490A2F01C9017020060E40F /* UMSnsAccountViewController.xib in Resources */,
 				149B81771CCDC1F600205971 /* call_out.png in Resources */,
 				859DB3A81CA8D43C00CB11E4 /* Expression_96@2x.png in Resources */,
@@ -4979,6 +5013,7 @@
 			files = (
 				149B811C1CCDC1F600205971 /* UIViewController+HUD.m in Sources */,
 				85EBD9DF1C8832AC00861248 /* MWGridCell.m in Sources */,
+				14EC326B1CCF6ED300CBD732 /* IJKMediaControl.m in Sources */,
 				149B812F1CCDC1F600205971 /* EMChatTimeCell.m in Sources */,
 				85EBD9E51C8832AC00861248 /* MWZoomingScrollView.m in Sources */,
 				147157DD1C647DD200BA3552 /* Utils.m in Sources */,
@@ -5000,6 +5035,7 @@
 				85EBD9F01C8832AC00861248 /* UIButton+EMWebCache.m in Sources */,
 				8561A7941CA535DA00849A19 /* NSMutableArray+FilterElement.m in Sources */,
 				147157B91C647DD200BA3552 /* UIImage+WaterMark.m in Sources */,
+				14EC32671CCF6DF900CBD732 /* IJKMoviePlayerViewController.m in Sources */,
 				149B81291CCDC1F600205971 /* EMChatAudioBubbleView.m in Sources */,
 				149B82031CCDC1F600205971 /* RobotListViewController.m in Sources */,
 				149B81431CCDC1F600205971 /* NotificationCell.m in Sources */,
@@ -5025,6 +5061,7 @@
 				1488A1E21C9FCE5B00B04270 /* GetModuleApi.m in Sources */,
 				85EBD9F51C8832AC00861248 /* UIImageView+EMWebCache.m in Sources */,
 				149B7FCD1CCDC10B00205971 /* LGDViewController.m in Sources */,
+				14EC32731CCF6F1700CBD732 /* IJKDemoHistory.m in Sources */,
 				149B81261CCDC1F600205971 /* FacialView.m in Sources */,
 				149B81221CCDC1F600205971 /* ConvertToCommonEmoticonsHelper.m in Sources */,
 				147157B81C647DD200BA3552 /* UIImage+ImageEffects.m in Sources */,
@@ -5051,6 +5088,7 @@
 				147157D01C647DD200BA3552 /* TextField.m in Sources */,
 				14AC173C1C8413410034AE94 /* GetUserInfoApi.m in Sources */,
 				85EBD9E01C8832AC00861248 /* MWGridViewController.m in Sources */,
+				14EC32721CCF6F1700CBD732 /* Barcode.m in Sources */,
 				149B811B1CCDC1F600205971 /* UIViewController+DismissKeyboard.m in Sources */,
 				149B81461CCDC1F600205971 /* RealtimeSearchUtil.m in Sources */,
 				147157DC1C647DD200BA3552 /* ProjectInfomation.m in Sources */,

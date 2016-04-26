@@ -15,7 +15,7 @@
  */
 
 #import <UIKit/UIKit.h>
-//#import <IJKMediaFramework/IJKMediaFramework.h>
+#import <IJKMediaFramework/IJKMediaFramework.h>
 
 @class IJKMediaControl;
 
