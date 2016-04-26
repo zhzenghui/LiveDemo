@@ -202,6 +202,7 @@
 		1462D23F1CCF406300953C1F /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1462D2381CCF406200953C1F /* libswscale.a */; };
 		1462D2411CCF424C00953C1F /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1462D2401CCF424C00953C1F /* libbz2.1.0.tbd */; };
 		1462D2471CCF437600953C1F /* LGDPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1462D2461CCF437600953C1F /* LGDPlayerViewController.m */; };
+		1462D24E1CCF4F5200953C1F /* LGDStreamerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1462D24D1CCF4F5200953C1F /* LGDStreamerViewController.m */; };
 		146E060F1C911A98000159D6 /* LoginApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 146E060E1C911A98000159D6 /* LoginApi.m */; };
 		147156A51C64736E00BA3552 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 147156A41C64736E00BA3552 /* main.m */; };
 		147156AE1C64736E00BA3552 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 147156AC1C64736E00BA3552 /* Main.storyboard */; };
@@ -1052,6 +1053,8 @@
 		1462D2401CCF424C00953C1F /* libbz2.1.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.1.0.tbd; path = usr/lib/libbz2.1.0.tbd; sourceTree = SDKROOT; };
 		1462D2451CCF437600953C1F /* LGDPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGDPlayerViewController.h; sourceTree = "<group>"; };
 		1462D2461CCF437600953C1F /* LGDPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGDPlayerViewController.m; sourceTree = "<group>"; };
+		1462D24C1CCF4F5200953C1F /* LGDStreamerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGDStreamerViewController.h; sourceTree = "<group>"; };
+		1462D24D1CCF4F5200953C1F /* LGDStreamerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGDStreamerViewController.m; sourceTree = "<group>"; };
 		146E060D1C911A98000159D6 /* LoginApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginApi.h; sourceTree = "<group>"; };
 		146E060E1C911A98000159D6 /* LoginApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginApi.m; sourceTree = "<group>"; };
 		147156A01C64736E00BA3552 /* LiveGaming.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveGaming.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -2424,6 +2427,39 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
+		1462D2481CCF4F5200953C1F /* 推流 */ = {
+			isa = PBXGroup;
+			children = (
+				1462D2491CCF4F5200953C1F /* Cell */,
+				1462D24A1CCF4F5200953C1F /* View */,
+				1462D24B1CCF4F5200953C1F /* ViewController */,
+			);
+			path = "推流";
+			sourceTree = "<group>";
+		};
+		1462D2491CCF4F5200953C1F /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		1462D24A1CCF4F5200953C1F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1462D24B1CCF4F5200953C1F /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1462D24C1CCF4F5200953C1F /* LGDStreamerViewController.h */,
+				1462D24D1CCF4F5200953C1F /* LGDStreamerViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
 		147156971C64736E00BA3552 = {
 			isa = PBXGroup;
 			children = (
@@ -2630,6 +2666,7 @@
 		147157231C647DD200BA3552 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				1462D2481CCF4F5200953C1F /* 推流 */,
 				1462D1B81CCF3EDF00953C1F /* FFMpegPlayer */,
 				1462D1AA1CCF3D0500953C1F /* 流畅界面 */,
 				149B820A1CCE194300205971 /* Setting */,
@@ -5215,6 +5252,7 @@
 				85EBD9FA1C8832AC00861248 /* PSTCollectionViewController.m in Sources */,
 				859DB3C21CA8FBAA00CB11E4 /* PlaceholderTextView.m in Sources */,
 				85D79EC11CA65A300023B03B /* EditUserInfoApi.m in Sources */,
+				1462D24E1CCF4F5200953C1F /* LGDStreamerViewController.m in Sources */,
 				85EBD9FB1C8832AC00861248 /* PSTCollectionViewData.m in Sources */,
 				857C00E21CACC78F00AC853F /* AddFriendsApi.m in Sources */,
 				859DB3C61CA90E0400CB11E4 /* FeedBackApi.m in Sources */,
