@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <IJKMediaFramework/IJKMediaFramework.h>
+
 
 @interface LGDRTMPViewController : UIViewController
 
-@property (weak, nonatomic) IBOutlet UIBarButtonItem *openSetting;
+@property (atomic, strong) NSURL *url;
+
+@property (atomic, retain) id <IJKMediaPlayback> player;
 
 @end

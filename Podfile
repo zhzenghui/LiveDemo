@@ -36,6 +36,8 @@ target "LiveGaming" do
     pod 'DZNEmptyDataSet'
 
     pod 'YYModel'
+    
+    pod 'YYImage'
 
     pod 'TDBadgedCell'
 

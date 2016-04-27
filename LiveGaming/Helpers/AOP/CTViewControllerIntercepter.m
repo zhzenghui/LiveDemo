@@ -10,6 +10,8 @@
 #import <Aspects/Aspects.h>
 #import <UIKit/UIKit.h>
 #import "ColorMacro.h"
+#import "SocialConfig.h"
+
 
 @implementation CTViewControllerIntercepter
 
@@ -49,6 +51,12 @@
         [UIViewController aspect_hookSelector:@selector(viewWillAppear:) withOptions:AspectPositionAfter usingBlock:^(id<AspectInfo> aspectInfo, BOOL animated){
             [self viewWillAppear:animated viewController:[aspectInfo instance]];
         } error:NULL];
+        
+        
+        [SocialConfig aspect_hookSelector:@selector(shareSnsFromViewController:shareText:shareImage:shareLink:) withOptions:AspectPositionAfter usingBlock:^(id<AspectInfo> aspectInfo, BOOL animated){
+
+            [self shareSnsFromViewController:[aspectInfo instance]];
+        } error:NULL];
     }
     return self;
 }
@@ -70,6 +78,13 @@
 {
     /* 你可以使用这个方法进行打日志，初始化基础业务相关的内容 */
 //    NSLog(@"[%@ viewWillAppear:%@]", [viewController class], animated ? @"YES" : @"NO");
+}
+
+// 分享
+- (void)shareSnsFromViewController:(SocialConfig *)social {
+    
+//    分享数量
+    
 }
 
 @end
