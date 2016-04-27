@@ -552,9 +552,12 @@
 		14CC99E61CD0600D0060B994 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CC99E51CD0600D0060B994 /* libbz2.tbd */; };
 		14CC9A481CD094E60060B994 /* weibo_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 14CC9A471CD094E60060B994 /* weibo_0.json */; };
 		14CC9A4B1CD0954E0060B994 /* WBModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9A4A1CD0954E0060B994 /* WBModel.m */; };
-		14CC9A501CD096680060B994 /* WBStatusLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9A4D1CD096680060B994 /* WBStatusLayout.m */; };
 		14CC9A511CD096680060B994 /* WBStatusCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9A4F1CD096680060B994 /* WBStatusCell.m */; };
 		14CC9A541CD0985E0060B994 /* WBStatusHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9A531CD0985E0060B994 /* WBStatusHelper.m */; };
+		14CC9B811CD0BB250060B994 /* YYAsyncLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9B7C1CD0BB250060B994 /* YYAsyncLayer.m */; };
+		14CC9B821CD0BB250060B994 /* YYSentinel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9B7E1CD0BB250060B994 /* YYSentinel.m */; };
+		14CC9B831CD0BB250060B994 /* YYTransaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9B801CD0BB250060B994 /* YYTransaction.m */; };
+		14CC9B861CD0BB570060B994 /* LGDLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14CC9B851CD0BB570060B994 /* LGDLabel.m */; };
 		14D704771CA38578009A1852 /* CommentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8519D4191CA138560038F2DF /* CommentView.m */; };
 		14EC32511CCF6B3A00CBD732 /* IJKMediaFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EC324B1CCF6AD600CBD732 /* IJKMediaFramework.framework */; };
 		14EC32531CCF6C1900CBD732 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14EC32521CCF6C1900CBD732 /* AudioToolbox.framework */; };
@@ -1573,12 +1576,18 @@
 		14CC9A471CD094E60060B994 /* weibo_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_0.json; sourceTree = "<group>"; };
 		14CC9A491CD0954E0060B994 /* WBModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBModel.h; sourceTree = "<group>"; };
 		14CC9A4A1CD0954E0060B994 /* WBModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBModel.m; sourceTree = "<group>"; };
-		14CC9A4C1CD096680060B994 /* WBStatusLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusLayout.h; sourceTree = "<group>"; };
-		14CC9A4D1CD096680060B994 /* WBStatusLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusLayout.m; sourceTree = "<group>"; };
 		14CC9A4E1CD096680060B994 /* WBStatusCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusCell.h; sourceTree = "<group>"; };
 		14CC9A4F1CD096680060B994 /* WBStatusCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusCell.m; sourceTree = "<group>"; };
 		14CC9A521CD0985E0060B994 /* WBStatusHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WBStatusHelper.h; sourceTree = "<group>"; };
 		14CC9A531CD0985E0060B994 /* WBStatusHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WBStatusHelper.m; sourceTree = "<group>"; };
+		14CC9B7B1CD0BB250060B994 /* YYAsyncLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYAsyncLayer.h; sourceTree = "<group>"; };
+		14CC9B7C1CD0BB250060B994 /* YYAsyncLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYAsyncLayer.m; sourceTree = "<group>"; };
+		14CC9B7D1CD0BB250060B994 /* YYSentinel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYSentinel.h; sourceTree = "<group>"; };
+		14CC9B7E1CD0BB250060B994 /* YYSentinel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYSentinel.m; sourceTree = "<group>"; };
+		14CC9B7F1CD0BB250060B994 /* YYTransaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYTransaction.h; sourceTree = "<group>"; };
+		14CC9B801CD0BB250060B994 /* YYTransaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYTransaction.m; sourceTree = "<group>"; };
+		14CC9B841CD0BB570060B994 /* LGDLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGDLabel.h; sourceTree = "<group>"; };
+		14CC9B851CD0BB570060B994 /* LGDLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGDLabel.m; sourceTree = "<group>"; };
 		14EC32441CCF6AD500CBD732 /* IJKMediaPlayer.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = IJKMediaPlayer.xcodeproj; path = ../../../ijkplayer/ios/IJKMediaPlayer/IJKMediaPlayer.xcodeproj; sourceTree = "<group>"; };
 		14EC32521CCF6C1900CBD732 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		14EC32541CCF6C2100CBD732 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -2136,8 +2145,6 @@
 			children = (
 				14CC9A521CD0985E0060B994 /* WBStatusHelper.h */,
 				14CC9A531CD0985E0060B994 /* WBStatusHelper.m */,
-				14CC9A4C1CD096680060B994 /* WBStatusLayout.h */,
-				14CC9A4D1CD096680060B994 /* WBStatusLayout.m */,
 				14CC9A4E1CD096680060B994 /* WBStatusCell.h */,
 				14CC9A4F1CD096680060B994 /* WBStatusCell.m */,
 			);
@@ -2360,6 +2367,8 @@
 				147156EB1C647DD200BA3552 /* IBJView.m */,
 				147156EE1C647DD200BA3552 /* Label.h */,
 				147156EF1C647DD200BA3552 /* Label.m */,
+				14CC9B841CD0BB570060B994 /* LGDLabel.h */,
+				14CC9B851CD0BB570060B994 /* LGDLabel.m */,
 				147156F71C647DD200BA3552 /* ScrollImageView.h */,
 				147156F81C647DD200BA3552 /* ScrollImageView.m */,
 				147156F91C647DD200BA3552 /* ShowScrollView.h */,
@@ -2457,6 +2466,7 @@
 		147157481C647DD200BA3552 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				14CC9B7A1CD0BB250060B994 /* YYAsyncLayer */,
 				14EC32441CCF6AD500CBD732 /* IJKMediaPlayer.xcodeproj */,
 				859DB26A1CA8D43C00CB11E4 /* TTAttributeLabel */,
 				85D79EAA1CA620E70023B03B /* QRadioButton */,
@@ -3475,6 +3485,19 @@
 				14AC171E1C83E7FE0034AE94 /* YTKUrlArgumentsFilter.m */,
 			);
 			path = Configs;
+			sourceTree = "<group>";
+		};
+		14CC9B7A1CD0BB250060B994 /* YYAsyncLayer */ = {
+			isa = PBXGroup;
+			children = (
+				14CC9B7B1CD0BB250060B994 /* YYAsyncLayer.h */,
+				14CC9B7C1CD0BB250060B994 /* YYAsyncLayer.m */,
+				14CC9B7D1CD0BB250060B994 /* YYSentinel.h */,
+				14CC9B7E1CD0BB250060B994 /* YYSentinel.m */,
+				14CC9B7F1CD0BB250060B994 /* YYTransaction.h */,
+				14CC9B801CD0BB250060B994 /* YYTransaction.m */,
+			);
+			path = YYAsyncLayer;
 			sourceTree = "<group>";
 		};
 		14EC32451CCF6AD500CBD732 /* Products */ = {
@@ -5039,6 +5062,7 @@
 				8561A7641CA534F400849A19 /* PinYinForObjc.m in Sources */,
 				149B813F1CCDC1F600205971 /* EMNavigationController.m in Sources */,
 				149B81191CCDC1F600205971 /* UIImageView+HeadImage.m in Sources */,
+				14CC9B861CD0BB570060B994 /* LGDLabel.m in Sources */,
 				149B81271CCDC1F600205971 /* DXChatBarMoreView.m in Sources */,
 				85EBD9F31C8832AC00861248 /* UIImage+EMWebP.m in Sources */,
 				85EBD9491C88240F00861248 /* Emoji.m in Sources */,
@@ -5078,6 +5102,7 @@
 				147157D01C647DD200BA3552 /* TextField.m in Sources */,
 				14AC173C1C8413410034AE94 /* GetUserInfoApi.m in Sources */,
 				85EBD9E01C8832AC00861248 /* MWGridViewController.m in Sources */,
+				14CC9B811CD0BB250060B994 /* YYAsyncLayer.m in Sources */,
 				149B811B1CCDC1F600205971 /* UIViewController+DismissKeyboard.m in Sources */,
 				149B81461CCDC1F600205971 /* RealtimeSearchUtil.m in Sources */,
 				147157DC1C647DD200BA3552 /* ProjectInfomation.m in Sources */,
@@ -5130,9 +5155,11 @@
 				149B81341CCDC1F600205971 /* MessageReadManager.m in Sources */,
 				8561A7651CA534F400849A19 /* PinyinHelper.m in Sources */,
 				149B812C1CCDC1F600205971 /* EMChatLocationBubbleView.m in Sources */,
+				14CC9B831CD0BB250060B994 /* YYTransaction.m in Sources */,
 				85EBD97B1C88240F00861248 /* TTGlobalUICommon.m in Sources */,
 				149B81201CCDC1F600205971 /* ChatViewController+Category.m in Sources */,
 				147157EB1C647DD200BA3552 /* NSString+Base64.m in Sources */,
+				14CC9B821CD0BB250060B994 /* YYSentinel.m in Sources */,
 				85EBD9E91C8832AC00861248 /* EMSDWebImageDecoder.m in Sources */,
 				8561A7621CA534F400849A19 /* NSString+PinYin4Cocoa.m in Sources */,
 				14AC171F1C83E7FE0034AE94 /* NetworkConfig.m in Sources */,
@@ -5186,7 +5213,6 @@
 				85EBD9EF1C8832AC00861248 /* NSData+EMImageContentType.m in Sources */,
 				149B81251CCDC1F600205971 /* DXFaceView.m in Sources */,
 				147157D31C647DD200BA3552 /* CTViewControllerIntercepter.m in Sources */,
-				14CC9A501CD096680060B994 /* WBStatusLayout.m in Sources */,
 				85EBD9411C88240F00861248 /* EMAudioPlayerUtil.m in Sources */,
 				147157ED1C647DD200BA3552 /* RageIAPHelper.m in Sources */,
 				85EBD9431C88240F00861248 /* EMCDDeviceManager+Media.m in Sources */,

@@ -10,7 +10,6 @@
 #import "WBModel.h"
 #import "YYModel.h"
 #import "NSObject+YYModel.h"
-#import "WBStatusLayout.h"
 
 @interface SmoothInterface ()
 @property (nonatomic, strong) NSMutableArray *titles;
@@ -43,9 +42,9 @@
             NSData *data = [NSData dataWithContentsOfFile:[NSString stringWithFormat:@"weibo_0.json"]];
             WBTimelineItem *item = [WBTimelineItem yy_modelWithJSON:data];
             for (WBStatus *status in item.statuses) {
-                WBStatusLayout *layout = [[WBStatusLayout alloc] initWithStatus:status style:WBLayoutStyleTimeline];
+//                WBStatusLayout *layout = [[WBStatusLayout alloc] initWithStatus:status style:WBLayoutStyleTimeline];
                 //                [layout layout];
-                [_layouts addObject:layout];
+//                [_layouts addObject:layout];
             }
 
         
@@ -54,9 +53,9 @@
         
         dispatch_async(dispatch_get_main_queue(), ^{
             self.title = [NSString stringWithFormat:@"Weibo (loaded:%d)", (int)_layouts.count];
-            [indicator removeFromSuperview];
+//            [indicator removeFromSuperview];
             self.navigationController.view.userInteractionEnabled = YES;
-            [_tableView reloadData];
+//            [_tableView reloadData];
         });
     });
 

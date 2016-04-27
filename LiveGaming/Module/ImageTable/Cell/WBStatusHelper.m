@@ -29,69 +29,69 @@
     });
     return bundle;
 }
-
-+ (YYMemoryCache *)imageCache {
-    static YYMemoryCache *cache;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        cache = [YYMemoryCache new];
-        cache.shouldRemoveAllObjectsOnMemoryWarning = NO;
-        cache.shouldRemoveAllObjectsWhenEnteringBackground = NO;
-        cache.name = @"WeiboImageCache";
-    });
-    return cache;
-}
-
-+ (UIImage *)imageNamed:(NSString *)name {
-    if (!name) return nil;
-    UIImage *image = [[self imageCache] objectForKey:name];
-    if (image) return image;
-    NSString *ext = name.pathExtension;
-    if (ext.length == 0) ext = @"png";
-    NSString *path = [[self bundle] pathForScaledResource:name ofType:ext];
-    if (!path) return nil;
-    image = [UIImage imageWithContentsOfFile:path];
-    image = [image imageByDecoded];
-    if (!image) return nil;
-    [[self imageCache] setObject:image forKey:name];
-    return image;
-}
-
-+ (UIImage *)imageWithPath:(NSString *)path {
-    if (!path) return nil;
-    UIImage *image = [[self imageCache] objectForKey:path];
-    if (image) return image;
-    if (path.pathScale == 1) {
-        // 查找 @2x @3x 的图片
-        NSArray *scales = [NSBundle preferredScales];
-        for (NSNumber *scale in scales) {
-            image = [UIImage imageWithContentsOfFile:[path stringByAppendingPathScale:scale.floatValue]];
-            if (image) break;
-        }
-    } else {
-        image = [UIImage imageWithContentsOfFile:path];
-    }
-    if (image) {
-        image = [image imageByDecoded];
-        [[self imageCache] setObject:image forKey:path];
-    }
-    return image;
-}
-
-+ (YYWebImageManager *)avatarImageManager {
-    static YYWebImageManager *manager;
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        NSString *path = [[UIApplication sharedApplication].cachesPath stringByAppendingPathComponent:@"weibo.avatar"];
-        YYImageCache *cache = [[YYImageCache alloc] initWithPath:path];
-        manager = [[YYWebImageManager alloc] initWithCache:cache queue:[YYWebImageManager sharedManager].queue];
-        manager.sharedTransformBlock = ^(UIImage *image, NSURL *url) {
-            if (!image) return image;
-            return [image imageByRoundCornerRadius:100]; // a large value
-        };
-    });
-    return manager;
-}
+//
+//+ (YYMemoryCache *)imageCache {
+//    static YYMemoryCache *cache;
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        cache = [YYMemoryCache new];
+//        cache.shouldRemoveAllObjectsOnMemoryWarning = NO;
+//        cache.shouldRemoveAllObjectsWhenEnteringBackground = NO;
+//        cache.name = @"WeiboImageCache";
+//    });
+//    return cache;
+//}
+//
+//+ (UIImage *)imageNamed:(NSString *)name {
+//    if (!name) return nil;
+//    UIImage *image = [[self imageCache] objectForKey:name];
+//    if (image) return image;
+//    NSString *ext = name.pathExtension;
+//    if (ext.length == 0) ext = @"png";
+//    NSString *path = [[self bundle] pathForScaledResource:name ofType:ext];
+//    if (!path) return nil;
+//    image = [UIImage imageWithContentsOfFile:path];
+//    image = [image imageByDecoded];
+//    if (!image) return nil;
+//    [[self imageCache] setObject:image forKey:name];
+//    return image;
+//}
+//
+//+ (UIImage *)imageWithPath:(NSString *)path {
+//    if (!path) return nil;
+//    UIImage *image = [[self imageCache] objectForKey:path];
+//    if (image) return image;
+//    if (path.pathScale == 1) {
+//        // 查找 @2x @3x 的图片
+//        NSArray *scales = [NSBundle preferredScales];
+//        for (NSNumber *scale in scales) {
+//            image = [UIImage imageWithContentsOfFile:[path stringByAppendingPathScale:scale.floatValue]];
+//            if (image) break;
+//        }
+//    } else {
+//        image = [UIImage imageWithContentsOfFile:path];
+//    }
+//    if (image) {
+//        image = [image imageByDecoded];
+//        [[self imageCache] setObject:image forKey:path];
+//    }
+//    return image;
+//}
+//
+//+ (YYWebImageManager *)avatarImageManager {
+//    static YYWebImageManager *manager;
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        NSString *path = [[UIApplication sharedApplication].cachesPath stringByAppendingPathComponent:@"weibo.avatar"];
+//        YYImageCache *cache = [[YYImageCache alloc] initWithPath:path];
+//        manager = [[YYWebImageManager alloc] initWithCache:cache queue:[YYWebImageManager sharedManager].queue];
+//        manager.sharedTransformBlock = ^(UIImage *image, NSURL *url) {
+//            if (!image) return image;
+//            return [image imageByRoundCornerRadius:100]; // a large value
+//        };
+//    });
+//    return manager;
+//}
 
 + (NSString *)stringWithTimelineDate:(NSDate *)date {
     if (!date) return @"";
@@ -123,12 +123,12 @@
         return @"刚刚";
     } else if (delta < 60 * 60) { // 1小时内
         return [NSString stringWithFormat:@"%d分钟前", (int)(delta / 60.0)];
-    } else if (date.isToday) {
-        return [NSString stringWithFormat:@"%d小时前", (int)(delta / 60.0 / 60.0)];
-    } else if (date.isYesterday) {
-        return [formatterYesterday stringFromDate:date];
-    } else if (date.year == now.year) {
-        return [formatterSameYear stringFromDate:date];
+//    } else if (date.isToday) {
+//        return [NSString stringWithFormat:@"%d小时前", (int)(delta / 60.0 / 60.0)];
+//    } else if (date.isYesterday) {
+//        return [formatterYesterday stringFromDate:date];
+//    } else if (date.year == now.year) {
+//        return [formatterSameYear stringFromDate:date];
     } else {
         return [formatterFullDate stringFromDate:date];
     }
@@ -224,13 +224,13 @@
     NSString *jsonPath = [path stringByAppendingPathComponent:@"info.json"];
     NSData *json = [NSData dataWithContentsOfFile:jsonPath];
     if (json.length) {
-        group = [WBEmoticonGroup modelWithJSON:json];
+        group = [WBEmoticonGroup yy_modelWithJSON:json];
     }
     if (!group) {
         NSString *plistPath = [path stringByAppendingPathComponent:@"info.plist"];
         NSDictionary *plist = [NSDictionary dictionaryWithContentsOfFile:plistPath];
         if (plist.count) {
-            group = [WBEmoticonGroup modelWithJSON:plist];
+            group = [WBEmoticonGroup yy_modelWithJSON:plist];
         }
     }
     for (WBEmoticon *emoticon in group.emoticons) {
@@ -259,7 +259,7 @@
         NSString *emoticonPlistPath = [emoticonBundlePath stringByAppendingPathComponent:@"emoticons.plist"];
         NSDictionary *plist = [NSDictionary dictionaryWithContentsOfFile:emoticonPlistPath];
         NSArray *packages = plist[@"packages"];
-        groups = (NSMutableArray *)[NSArray modelArrayWithClass:[WBEmoticonGroup class] json:packages];
+        groups = (NSMutableArray *)[NSArray yy_modelArrayWithClass:[WBEmoticonGroup class] json:packages];
         
         NSMutableDictionary *groupDic = [NSMutableDictionary new];
         for (int i = 0, max = (int)groups.count; i < max; i++) {
@@ -273,7 +273,7 @@
             NSString *path = [emoticonBundlePath stringByAppendingPathComponent:group.groupID];
             NSString *infoPlistPath = [path stringByAppendingPathComponent:@"info.plist"];
             NSDictionary *info = [NSDictionary dictionaryWithContentsOfFile:infoPlistPath];
-            [group modelSetWithDictionary:info];
+            [group yy_modelSetWithDictionary:info];
             if (group.emoticons.count == 0) {
                 i--;
                 max--;
@@ -288,12 +288,13 @@
             if (!group) continue;
             NSString *infoJSONPath = [[[emoticonBundlePath stringByAppendingPathComponent:@"additional"] stringByAppendingPathComponent:path] stringByAppendingPathComponent:@"info.json"];
             NSData *infoJSON = [NSData dataWithContentsOfFile:infoJSONPath];
-            WBEmoticonGroup *addGroup = [WBEmoticonGroup modelWithJSON:infoJSON];
+            WBEmoticonGroup *addGroup = [WBEmoticonGroup yy_modelWithJSON:infoJSON];
             if (addGroup.emoticons.count) {
                 for (WBEmoticon *emoticon in addGroup.emoticons) {
                     emoticon.group = group;
                 }
-                [((NSMutableArray *)group.emoticons) insertObjects:addGroup.emoticons atIndex:0];
+//                [((NSMutableArray *)group.emoticons) insertObjects:addGroup.emoticons atIndex:0];
+                
             }
         }
     });

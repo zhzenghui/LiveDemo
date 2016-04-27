@@ -34,7 +34,7 @@
 + (UIImage *)imageWithPath:(NSString *)path;
 
 /// 圆角头像的 manager
-+ (YYWebImageManager *)avatarImageManager;
+//+ (YYWebImageManager *)avatarImageManager;
 
 /// 将 date 格式化成微博的友好显示
 + (NSString *)stringWithTimelineDate:(NSDate *)date;
